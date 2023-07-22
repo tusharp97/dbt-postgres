@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: bronze_users_model
+    config:
+      alias: users_mod
+      schema: bronze_users
+      materialized: table

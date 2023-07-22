@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: model_seeds_student_marks
+    config:  
+      alias: student_marks_table
+      schema: seed_data
+      materialized: table

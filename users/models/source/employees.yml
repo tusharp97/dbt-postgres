@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: employees
+    tables:
+    - name: employees
+    - name: departments
+    - name: dept_manager
+    - name: salaries
+    - name: titles
+    - name: dept_emp
+
+  

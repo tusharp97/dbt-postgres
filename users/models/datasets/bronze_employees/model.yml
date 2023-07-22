@@ -1,0 +1,28 @@
+version: 2
+
+models:
+  - name: bronze_employees_dept_emp
+    config:
+      schema: bronze_employees
+      alias: dept_emp
+      materialized: view
+  - name: bronze_employees_salaries
+    config:
+      schema: bronze_employees
+      alias: salaries
+      materialized: view
+  - name: bronze_employees_titles
+    config:
+      schema: bronze_employees
+      alias: titles
+      materialized: view
+  - name: bronze_employees_employees
+    config:
+      schema: bronze_employees
+      alias: employees
+      materialized: view
+  - name: bronze_employees_dept_manager
+    config:
+      schema: bronze_employees
+      alias: dept_manager
+      materialized: view

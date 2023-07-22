@@ -1,0 +1,11 @@
+version: 2
+
+seeds:
+  - name: Student_Marks
+    config:
+      schema: seed_data
+      description: student marks data
+      column_types:
+        number_courses: INTEGER
+        time_study: FLOAT
+        Marks: INTEGER
